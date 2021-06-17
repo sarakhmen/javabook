@@ -3,12 +3,9 @@ import java.io.IOException;
 import java.util.Scanner;
 
 public class Task1 {
-	public static void run(String str) throws IOException {
+	public static void run(String str, int k) throws IOException {
 		System.out.println("\n\nTask1:");
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter index of letter: ");
-		int k = in.nextInt();
-		System.out.println("Your k = " + k);
 		System.out.print("Enter replacement character: ");
 		char repl =	(char)System.in.read();
 		System.out.println("Your repl = " + repl);
